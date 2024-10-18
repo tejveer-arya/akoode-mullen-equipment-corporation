@@ -184,7 +184,7 @@ a, i, .btn, button, img, span, .navbar-nav .nav-link:before, .dropdown-item, .na
 .primary-footer, .primary-footer a{color: #ffffff;}
 .primary-footer h5{color: #ffffff; margin-bottom: 20px; text-transform: uppercase;}
 .primary-footer .list-unstyled{display: flex;justify-content: center;}
-.primary-footer .list-unstyled li a{color: #23244a;}
+.primary-footer .list-unstyled li a{color: #56C2F0;}
 
 .footer-contact {position: absolute; top: 0; width: 100%;}
 .footer-media{border-right: 1px dashed rgba(255,255,255,0.5); height: 100%;}
@@ -194,10 +194,11 @@ a, i, .btn, button, img, span, .navbar-nav .nav-link:before, .dropdown-item, .na
 .footer-media a:hover{color: #23244a;}
 
 footer.dark-bg .social-icons li a{color: rgba(255,255,255,0.6);}
-.footer-list li{margin-bottom: 15px; text-transform: capitalize;}
+.footer-list li{margin: 15px 0; text-transform: capitalize;}
 .footer-list li:last-child{margin-bottom: 0;}
 .footer-list li a{position: relative; z-index: 99;}
-.footer-list li i{margin-right: 5px; font-size: 12px; vertical-align: middle;}
+.footer-list li i{margin-right: 0px; font-size: 12px; vertical-align: middle;}
+.copyright li{margin:0}
 
 .footer-list li a:hover{color: #ffffff;}
 .footer-list li a:hover:before{width: 50px;}
