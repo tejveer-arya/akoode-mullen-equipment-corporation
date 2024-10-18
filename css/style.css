@@ -117,6 +117,9 @@ section{padding: 80px 0;}
 .vision-mission{background: url(../images/our-vision.jpg)center left no-repeat;position: relative;}
 .vision-mission:before{position: absolute;content: '';top:0;bottom: 0;left: 0;right: 0;background-color: rgba(0,0,0,0.6);z-index: 0}
 .vision-mission .row{position: relative;align-items: center;}
+.vision-mission .about-story{display: block;overflow: hidden;}
+.vision-mission .about-story img{-webkit-transition: all 0.5s ease 0s;-moz-transition: all 0.5s ease 0s;-ms-transition: all 0.5s ease 0s;transition: all 0.5s ease 0s;}
+.vision-mission:hover .about-story img, .vision-mission:focus .about-story img{-webkit-transform: scale(1.1);-moz-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);}
 
 /* ------------------------
     Terms and Conditions
